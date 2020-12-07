@@ -1,0 +1,185 @@
+.header a,
+a:hover {
+  color: #26EBFD;
+  text-decoration: none;
+}
+
+.header h1 {
+  letter-spacing: 15px;
+  font-size: 300%;
+}
+
+.header p {
+  color: white !important;
+  font-size: 90%;
+  letter-spacing: 3px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  color: #000000;
+  background-color: #26EBFD;
+}
+
+.nav-pills>li>a {
+  color: #fff;
+}
+
+.nav-pills>li>a:hover {
+  background-color: #26EBFD;
+  color: #000000;
+}
+
+.navbar-inverse {
+  padding: 1%;
+  border-radius: 0;
+}
+
+@media (max-width: 767px) {
+  .nav-pills>li {
+    float: none;
+  }
+
+  .nav-pills {
+    text-align: center;
+  }
+
+  .header h1 {
+    letter-spacing: 5px;
+    font-size: 280%;
+  }
+
+  .header {
+    text-align: center;
+  }
+}
+
+.clear {
+  clear: both;
+  height: 63px;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.films_block {
+  text-align: center;
+}
+
+.films_block img {
+  width: 100%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  border: 5px solid #dad7d5;
+}
+
+.film_label {
+  padding: 2%;
+  margin-bottom: 4%;
+}
+
+.margin-8 {
+  margin-top: 8%;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-warning:hover {
+  color: #000000;
+  background-color: #26EBFD;
+  border-color: #26EBFD;
+}
+
+.panel {
+  border: none;
+}
+
+.panel-body {
+  background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+  background-color: #26EBFD;
+  color: #000000;
+  border-color: transparent;
+}
+
+.sidebar-header {
+  font-size: 120%;
+  letter-spacing: 2px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.input-lg {
+  font-size: 14px;
+}
+
+.list-group-warning {
+  color: #000000;
+  background-color: #f9f9f9;
+}
+
+.badge {
+  background-color: #000000;
+}
+
+/* show.html */
+
+.info-block {
+  font-size: 120%;
+}
+
+.info-block .badge {
+  font-size: 80%;
+}
+
+.info-block span {
+  margin-right: 3%;
+}
+
+textarea.form-control {
+  height: 200px;
+}
+
+/* contact */
+.contact-content {
+  margin-top: 20px;
+}
+
+/* raiting */
+.table tbody>tr>td.vert-align {
+  vertical-align: middle;
+}
+
+.contact-info {
+  font-size: 180%;
+  font-weight: 500;
+}
+
+footer {
+  color: #666;
+  background-color: #000000;
+  padding: 18px 0;
+}
+
+footer a {
+  color: #999;
+}
+
+footer a:hover {
+  color: #fff;
+}
